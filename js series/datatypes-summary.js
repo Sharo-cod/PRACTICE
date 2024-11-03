@@ -68,3 +68,27 @@ implement [[Call]])          	Implementation-defined except may not be "undefine
 ..........................................................................................
 
 */
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// MEMORIES >
+
+// 1 : STACK MEMORY   USED ONLY IN PRIMITIVE DATATYPES
+
+// 2 : HEAP MEMORY    USED ONLY IN NON-PRIMITIVE DATATYPES
+
+
+// 1:   
+
+    let youtubename = "Shariqalam.com"
+    
+    let anothername = youtubename;
+
+    anothername = "Shariq"
+    
+    console.log(youtubename);
+    console.log(anothername);
+    
