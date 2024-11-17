@@ -1,17 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+.main-body{
+    background-color: rgb(28, 28, 28);
+    height: 100vh;
+    width: 100%;
 }
-h1{
-   
+.search_bar{
+    position: relative;
+    left: 300%;
 }
-.main{
-    display: flex;
+.navbar{
+    background-color: rgb(140, 140, 140);
+    width: 100vw;
+    border-radius: 12px;
 }
-.continer{
-    height: 85vh;
-    width: 120vh;
-    background: url(bg.jpg) no-repeat;
-    background-size: cover; 
+.shariq{
+    color: rgb(132, 35, 35);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
 }
+.alam{
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.shariqalam-p1{
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    transition: 0.5s ease-in-out;
+}
+.shariqalam-p1:hover{
+    letter-spacing: 10px;
+}
+
+
+.shariqalam-p2{
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+    transition: 0.5s ease-in-out;
+    max-width:  45%;
+}
+.photo-circle{
+    background-color: white;
+    border-radius: 50%;
+    height: 60vh;
+    width: 50vh;
+    position: relative;
+    left: 60vw;
+    bottom: 15vh;
+    border: 10px solid rgb(151, 151, 151);
+    transition: 0.5s ease-in-out;
+}
+.photo-circle h1{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    font-size: 100px;
+}
+.photo-circle:hover{
+    box-shadow: 1px 1px 50px 10px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
