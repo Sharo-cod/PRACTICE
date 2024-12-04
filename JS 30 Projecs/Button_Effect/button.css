@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.btn span{
+    position: relative;
+    z-index: 1;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    padding: 25px 50px;  
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover::before{
+    width: 300px;
+    height: 300px;
+}
